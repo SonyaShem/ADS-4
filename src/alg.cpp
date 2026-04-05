@@ -42,7 +42,8 @@ int binarySearch(int *arr, int left, int right, int target) {
     else {
       right = mid - 1;
     }
-    return 0;
+  }
+  return 0;
 }
 
 int countPairs3(int *arr, int len, int value) {
