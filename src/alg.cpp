@@ -38,11 +38,9 @@ int binarySearch(int *arr, int left, int right, int target) {
       if (arr[mid] == target) {
           first = mid;
           high = mid - 1;
-      }
-      else if (arr[mid] < target) {
+      } else if (arr[mid] < target) {
           low = mid + 1;
-      }
-      else {
+      } else {
           high = mid - 1;
       }
   }
@@ -55,8 +53,7 @@ int binarySearch(int *arr, int left, int right, int target) {
         low = mid + 1;
     } else if (arr[mid] < target) {
         low = mid + 1;
-    }
-    else {
+    } else {
         high = mid - 1;
     }
   }
